@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#ready{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+    color: rgb(211, 192, 192);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   line-height: 100px;
+   gap:20px;
+   
+}
+
+#ready h1{
+    font-size: 5vw;
+    color:red
+}
+
+#ready h4{
+    color:white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 0 20px;
+}
+#ready h2{
+    color: white;
+    background-color: red;
+    padding: 0 3vw;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#ready h2:hover{
+    background-color: rgb(116, 3, 3);
+}
+#ready h4 strong{
+    color:red;
+    font-size: 5vw;
+   
+}
+
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(162, 201, 102);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0px
+}
+
+#main img{
+    width: 100px;
+    mix-blend-mode: color-burn;
+    
+}
+
+#page{
+    height: 15vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+   gap:1vw;
+   justify-content: flex-start;
+   color: red;
+   font-size: 2vw;
+   font-weight: 900;
+   white-space: nowrap;
+   /* background-color: aqua; */
+}
+
+#page1{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#pnav{
+    color: red;
+    background-color: rgb(14, 40, 14);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px;
+
+   
+ 
+}
+
+#cntnt{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+#cntnt h1{
+    font-size: 20px;
+    font-weight: 700;
+    -webkit-text-stroke: 0.5px yellow ;
+    
+}
+
+#box{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding: 0px 40px;
+   
+}
+
+#pbbl{
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: black;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#bubble{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(213, 213, 9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: 500;
+    margin: 10px 10px;
+}
+
+#bubble:hover{
+    background-color: rgb(97, 97, 6);
+    cursor:pointer
+}
